@@ -82,3 +82,29 @@ body{
     font-size: 40px;
     color: white;
 }
+/* Dropdown menu */
+.dropdown-menu{
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+.dropdown-menu li{
+    padding: 8px 16px;
+}
+.dropdown-menu li:hover{
+    background-color: #BBB;
+}
+.dropdown-menu .dropdown-menu-about{
+    position: relative;
+}
+.dropdown-menu .dropdown-menu-about .menu-subAbout{
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 100%;
+}
+.dropdown-menu .dropdown-menu-about:hover .menu-subAbout{
+    display: block;
+}
